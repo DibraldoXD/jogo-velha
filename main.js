@@ -14,15 +14,17 @@ for(i=0;i<3;i++){
     }
 }
 
-while((jogadas<9)&&(fimJogo=false)){
+while(( jogadas<9 ) && ( fimJogo=false )){
 
     lin=parseInt(prompt(`${jogador} em [linha]:`));
     col=parseInt(prompt(`${jogador} em [coluna]:`));
-
+    
 }
+
 
 if(vencedor==' '){
     console.log("empate\n");
 }else{
     console.log(`${vencedor} venceu`);
 }
+
